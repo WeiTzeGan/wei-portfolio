@@ -63,7 +63,7 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Cool Forggy Club",
+      title: "Cool Froggy Club",
       description: "Academic Project - Web Application",
       imgUrl: WebprojImg1,
       infoImg: WebprojInfoImg1,
@@ -102,7 +102,7 @@ export const Projects = () => {
       showButton: false,
     },
     {
-      title: "Gift & Thank You Card",
+      title: "Thank You Card",
       description: "Youtube Video Promotion",
       imgUrl: GraohicprojImg2,
       infoImg: GraohicprojInfoImg2,
@@ -300,7 +300,7 @@ export const Projects = () => {
                         <Nav.Link eventKey="second">GRAPHIC</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">VIDEOS</Nav.Link>
+                        <Nav.Link eventKey="third">VIDEO</Nav.Link>
                       </Nav.Item>
                       {/* <Nav.Item>
                       <Nav.Link eventKey="fouth">VIDEOS</Nav.Link>
