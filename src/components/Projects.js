@@ -79,7 +79,7 @@ export const Projects = () => {
       showButton: true,
     },
     {
-      title: "Chinese Union Resources",
+      title: "Chinese Union Resources Website",
       description: "Wix.com- Web Design",
       imgUrl: WebprojImg3,
       infoImg: WebprojInfoImg3,
@@ -145,7 +145,7 @@ export const Projects = () => {
     },
     {
       title: "Seminar Poster",
-      description: "Testomony Talk",
+      description: "Testimony Talk",
       imgUrl: GraohicprojImg8,
       infoImg: GraohicprojInfoImg8,
       showButton: false,
