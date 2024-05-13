@@ -686,3 +686,73 @@ transition: 0.3s ease-in-out;
 .footer-social-icon a:hover img {
 filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
+
+/* Tablet (e.g., 768px to 1024px) */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  body {
+      font-size: 16px; /* Slightly smaller text for tablets */
+  }
+
+  nav.navbar {
+      padding: 12px 0; /* Reduced padding */
+  }
+
+  nav.navbar a.navbar-brand {
+      width: 18%; /* Adjust logo size */
+  }
+
+  .banner h1 {
+      font-size: 48px; /* Smaller font size for headlines */
+  }
+
+  .banner p {
+      font-size: 16px; /* Smaller font size for paragraph */
+  }
+
+  .project .nav.nav-pills .nav-link {
+      padding: 12px 0; /* Smaller tab items */
+  }
+
+  .skill-bx {
+      padding: 40px 30px; /* Reduced padding in skill boxes */
+  }
+}
+
+/* Phones (less than 768px) */
+@media only screen and (max-width: 768px) {
+  body {
+      font-size: 14px; /* Even smaller text for better readability on phones */
+  }
+
+  nav.navbar {
+      padding: 8px 0; /* Less padding */
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+      font-size: 16px; /* Smaller font size for navigation links */
+  }
+
+  .banner {
+      padding: 160px 20px 50px 20px; /* Adjusted padding */
+  }
+
+  .banner h1 {
+      font-size: 32px; /* Much smaller font size for headlines */
+  }
+
+  .banner p {
+      font-size: 14px; /* Smaller paragraph text */
+  }
+
+  .project .nav.nav-pills {
+      width: 100%; /* Full width tabs */
+  }
+
+  .skill-bx {
+      padding: 30px 20px; /* Reduced padding in skill boxes */
+  }
+
+  .footer {
+      padding: 30px 10px; /* Less padding in footer */
+  }
+}
