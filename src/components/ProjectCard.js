@@ -75,14 +75,25 @@ export const ProjectCard = ({ title, description, imgUrl, infoImg, linkUrl, show
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={infoImg} alt="More details" style={{ width: '100%', height: 'auto'}} />
+          <img src={infoImg} alt="More details" style={{ width: '100%', height: 'auto' }} />
         </Modal.Body>
         {showButton && (
+          // <Modal.Footer>
+          //   <Button style={{ backgroundColor: '#888888', borderColor: '#888888', color: '#EEEEEE' }} href={linkUrl} target="_blank">
+          //     Click Here To View The Project
+          //   </Button>
+          // </Modal.Footer>
           <Modal.Footer>
-            <Button style={{ backgroundColor: '#888888', borderColor: '#888888', color: '#EEEEEE' }} href={linkUrl} target="_blank">
+            <Button
+              as="a"
+              href={linkUrl}
+              target="_blank"
+              style={{ backgroundColor: '#888888', borderColor: '#888888', color: '#EEEEEE' }}
+            >
               Click Here To View The Project
             </Button>
           </Modal.Footer>
+
         )}
       </Modal>
     </Col>

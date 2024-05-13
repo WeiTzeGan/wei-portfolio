@@ -67,7 +67,7 @@ export const Projects = () => {
       description: "Academic Project - Web Application",
       imgUrl: WebprojImg1,
       infoImg: WebprojInfoImg1,
-      linkurl: "https://github.com/WeiTzeGan/CoolFroggyClubProject",
+      linkUrl: "https://github.com/WeiTzeGan/CoolFroggyClubProject",
       showButton: true,
     },
     {
@@ -75,7 +75,7 @@ export const Projects = () => {
       description: "Internship Project - Front-End Development",
       imgUrl: WebprojImg2,
       infoImg: WebprojInfoImg2,
-      linkurl: "https://new.moots.technology/",
+      linkUrl: "https://new.moots.technology/",
       showButton: true,
     },
     {
@@ -83,7 +83,7 @@ export const Projects = () => {
       description: "Wix.com- Web Design",
       imgUrl: WebprojImg3,
       infoImg: WebprojInfoImg3,
-      linkurl: "https://sdachum.wixsite.com/chumresources",
+      linkUrl: "https://sdachum.wixsite.com/chumresources",
       showButton: true,
     },
     // {
@@ -186,7 +186,7 @@ export const Projects = () => {
       description: "The Salt Studio #3",
       imgUrl: VideoprojImg1,
       infoImg: VideoprojInfoImg1,
-      linkurl: "https://youtu.be/x0tcwOgKcxM?si=2aCm2aGao2abpMJ6",
+      linkUrl: "https://youtu.be/x0tcwOgKcxM?si=2aCm2aGao2abpMJ6",
       showButton: true,
     },
     {
@@ -194,7 +194,7 @@ export const Projects = () => {
       description: "The Salt Studio #16",
       imgUrl: VideoprojImg2,
       infoImg: VideoprojInfoImg2,
-      linkurl: "https://youtu.be/UeVOWjtxj4o?si=cnU71eMEtTh_-ytP",
+      linkUrl: "https://youtu.be/UeVOWjtxj4o?si=cnU71eMEtTh_-ytP",
       showButton: true,
     },
     {
@@ -202,7 +202,7 @@ export const Projects = () => {
       description: "The Salt Studio #5",
       imgUrl: VideoprojImg3,
       infoImg: VideoprojInfoImg3,
-      linkurl: "https://youtu.be/lMv2Pc5EZP4?si=97VdcABCug_F8kzt",
+      linkUrl: "https://youtu.be/lMv2Pc5EZP4?si=97VdcABCug_F8kzt",
       showButton: true,
     },
     {
@@ -210,7 +210,7 @@ export const Projects = () => {
       description: "The Salt Studio #22",
       imgUrl: VideoprojImg4,
       infoImg: VideoprojInfoImg4,
-      linkurl: "https://youtu.be/POkmS0qOHso?si=I7Z4eT7L9tMIEhiG",
+      linkUrl: "https://youtu.be/POkmS0qOHso?si=I7Z4eT7L9tMIEhiG",
       showButton: true,
     },
     {
@@ -218,7 +218,7 @@ export const Projects = () => {
       description: "The Salt Studio #9",
       imgUrl: VideoprojImg5,
       infoImg: VideoprojInfoImg5,
-      linkurl: "https://youtu.be/KDSybtDSNM8?si=iVrPqJWOdMIZaiBH",
+      linkUrl: "https://youtu.be/KDSybtDSNM8?si=iVrPqJWOdMIZaiBH",
       showButton: true,
     },
     {
@@ -226,7 +226,7 @@ export const Projects = () => {
       description: "The Salt Studio #24",
       imgUrl: VideoprojImg6,
       infoImg: VideoprojInfoImg6,
-      linkurl: "https://youtu.be/qu6Dzl2RsJU?si=Vf8Crwj-J5srn6uw",
+      linkUrl: "https://youtu.be/qu6Dzl2RsJU?si=Vf8Crwj-J5srn6uw",
       showButton: true,
     },
     {
@@ -234,7 +234,7 @@ export const Projects = () => {
       description: "The Salt Studio #28",
       imgUrl: VideoprojImg7,
       infoImg: VideoprojInfoImg7,
-      linkurl: "https://youtu.be/AiqLoyO1-jo?si=xbwpo4r-mieXFWOn",
+      linkUrl: "https://youtu.be/AiqLoyO1-jo?si=xbwpo4r-mieXFWOn",
       showButton: true,
     },
     {
@@ -242,7 +242,7 @@ export const Projects = () => {
       description: "The Salt Studio #25",
       imgUrl: VideoprojImg8,
       infoImg: VideoprojInfoImg8,
-      linkurl: "https://youtu.be/7jmw-xk9njY?si=5-dG7fsWtBZMSjm4",
+      linkUrl: "https://youtu.be/7jmw-xk9njY?si=5-dG7fsWtBZMSjm4",
       showButton: true,
     },
     {
@@ -250,7 +250,7 @@ export const Projects = () => {
       description: "The Salt Studio #11",
       imgUrl: VideoprojImg9,
       infoImg: VideoprojInfoImg9,
-      linkurl: "https://youtu.be/4uoM2vAKkHg?si=SFKpNX59zjeqsNlo",
+      linkUrl: "https://youtu.be/4uoM2vAKkHg?si=SFKpNX59zjeqsNlo",
       showButton: true,
     },
     {
@@ -258,7 +258,7 @@ export const Projects = () => {
       description: "The Salt Studio #26",
       imgUrl: VideoprojImg10,
       infoImg: VideoprojInfoImg10,
-      linkurl: "https://youtu.be/pVOS27SWO70?si=PCaNuejf-wr5xbJD",
+      linkUrl: "https://youtu.be/pVOS27SWO70?si=PCaNuejf-wr5xbJD",
       showButton: true,
     },
     {
@@ -266,7 +266,7 @@ export const Projects = () => {
       description: "The Salt Studio #14",
       imgUrl: VideoprojImg11,
       infoImg: VideoprojInfoImg11,
-      linkurl: "https://youtu.be/SUeAh9pzF1o?si=sqWQQvx-gZqnT6C0",
+      linkUrl: "https://youtu.be/SUeAh9pzF1o?si=sqWQQvx-gZqnT6C0",
       showButton: true,
     },
     {
@@ -274,7 +274,7 @@ export const Projects = () => {
       description: "The Salt Studio #10",
       imgUrl: VideoprojImg12,
       infoImg: VideoprojInfoImg12,
-      linkurl: "https://youtu.be/MeJVNN1sx0Q?si=QXtK93Kx68LaNvNc",
+      linkUrl: "https://youtu.be/MeJVNN1sx0Q?si=QXtK93Kx68LaNvNc",
       showButton: true,
     },
   ];
