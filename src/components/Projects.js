@@ -290,7 +290,7 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
-                  <p>The portfolio showcases web development for student clubs and Webiny CMS, impactful graphic designs, and compelling video productions at The Salt Studio, highlighting diverse technological and creative expertise.</p>
+                  {/* <p>The portfolio showcases web development for student clubs and Webiny CMS, impactful graphic designs, and compelling video productions at The Salt Studio, highlighting diverse technological and creative expertise.</p> */}
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
