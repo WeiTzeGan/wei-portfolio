@@ -29,10 +29,13 @@ contactEmail.verify((error) => {
 });
 
 router.post("/contact", (req, res) => {
-  const name = req.body.firstName + req.body.lastName;
+  const name = req.body.firstName + ' ' + req.body.lastName; // Added space between first and last name
   const email = req.body.email;
   const message = req.body.message;
   const phone = req.body.phone;
+  
+  console.log('Received contact form submission:', { name, email, phone, message }); // Log received data
+
   const mail = {
     from: name,
     to: "wensigan@gmail.com",
@@ -42,10 +45,13 @@ router.post("/contact", (req, res) => {
            <p>Phone: ${phone}</p>
            <p>Message: ${message}</p>`,
   };
+
   contactEmail.sendMail(mail, (error) => {
     if (error) {
-      res.json(error);
+      console.log('Error sending email:', error); // Log error if email sending fails
+      res.json({ code: 500, status: "Message Failed to Send" });
     } else {
+      console.log('Email sent successfully'); // Log success message
       res.json({ code: 200, status: "Message Sent" });
     }
   });
