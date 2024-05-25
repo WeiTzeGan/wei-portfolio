@@ -54,7 +54,7 @@ import VideoprojInfoImg8 from "../assets/img/project-video8-dt.png";
 import VideoprojInfoImg9 from "../assets/img/project-video9-dt.png";
 import VideoprojInfoImg10 from "../assets/img/project-video10-dt.png";
 import VideoprojInfoImg11 from "../assets/img/project-video11-dt.png";
-import VideoprojInfoImg12 from "../assets/img/project-video11-dt.png";
+import VideoprojInfoImg12 from "../assets/img/project-video12-dt.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
